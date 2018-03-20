@@ -15,7 +15,7 @@ public class Singleton_1 {
         return instance;
     }
 
-    public void setValue(){
-        this.i = 1;
+    public void setValue(int i){
+        this.i = i;
     }
 }
